@@ -78,12 +78,11 @@ img {
   width: 1140px;
   margin: 80px auto;
   border-radius: 16px;
-  background: rgba(13, 19, 33, 0.02);
-  padding: 80px 97px 80px 97px;
+ 
 }
 .primary-title {
   font-size: 32px;
-  font-weight: 800;
+  font-weight: bolder;
   text-align: center;
   color: #0d1321;
 }
@@ -95,8 +94,12 @@ img {
   margin-top: 24px;
 }
 /* Why web development */
+#Techniques{
+ background: rgba(13, 19, 33, 0.02);
+  padding: 80px 97px 80px 97px;
+  border-radius: 16px;
+}
 .techniques-header {
-  align-items: center;
   margin-bottom: 48px;
 }
 .plan {
@@ -134,4 +137,16 @@ img {
   font-size: 16px;
   color: rgb(13, 19, 33);
   opacity: 0.7;
+}
+
+/* MY inspiration */
+.inspiration{
+  margin: 50px auto;
+  width: 852px;
+}
+.video{
+  box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+padding: 32px;
 }
